@@ -14,7 +14,7 @@
     <link href="images/smileycon.ico" rel="icon" type="image/x-icon"/>
 
     <!-- Bootstrap CSS, 4Beta2 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
@@ -33,8 +33,6 @@
     <!-- content-control -->
     <div class="container-fluid">
         <div class="row">
-            <!-- content-control -->
-
 
             <!-- SideNav -->
             <nav class="navbar navbar-expand-lg fixed-top" id="sideNav">
@@ -69,10 +67,38 @@
             </nav>
             <!-- End SideNav -->
 
+            <!-- Mobile Nav -->
+            <div class="pos-f-t" id="mobileNav">
+                <div class="collapse mobileNav" id="navbarToggleExternalContent">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="#projects">projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a data-scroll class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">graphic design</a>
+                            <div class="dropdown-menu">
+                                <!-- <a data-scroll class="dropdown-item" href="#design">Latest Project</a> -->
+                                <a data-scroll class="dropdown-item" href="#design">Brothers Roofing LLC</a>
+                                <a data-scroll class="dropdown-item" href="#lambda">Lambdas</a>
+                                <a data-scroll class="dropdown-item" href="#velvet">Latin Night Filters</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
 
 
             <!-- Content -->
-
             <!-- About -->
             <div class="container content">
                 <section class="divider d-flex div-line" id="about">
@@ -142,62 +168,62 @@
                     </div>
                 </section>
 
-            <!-- DineIn Screenshots -->
-            <div class="tz-gallery">
-                <div class="d-flex p-2 justify-content-around align-items-center picGrid">
+                <!-- DineIn Screenshots -->
+                <div class="tz-gallery">
+                    <div class="d-flex p-2 justify-content-around align-items-center picGrid">
 
-                    <div class="image" style="background-image: url(images/dinein/1_login.png)">
-                        <div class="caption">
-                            <a href="images/dinein/1_login.png" target="_blank" class="lightbox">
-                                <h5>Login Page</h5>
-                                <br>
-                                <br>
-                                Logo created with Adobe Photoshop
-                                <br>
-                            </a>
+                        <div class="image" style="background-image: url(images/dinein/1_login.png)">
+                            <div class="caption">
+                                <a href="images/dinein/1_login.png" target="_blank" class="lightbox">
+                                    <h5>Login Page</h5>
+                                    <br>
+                                    <br>
+                                    Logo created with Adobe Photoshop
+                                    <br>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="image" style="background-image: url(images/dinein/2_table-layout.png)">
-                        <div class="caption">
-                            <a href="images/dinein/2_table-layout.png" target="_blank" class="lightbox">
-                                <h5>Table Layout</h5>
-                                <br>
-                                <br>
-                                Abilitiy to edit layout and add tables.
-                                <br>
-                            </a>
+                        <div class="image" style="background-image: url(images/dinein/2_table-layout.png)">
+                            <div class="caption">
+                                <a href="images/dinein/2_table-layout.png" target="_blank" class="lightbox">
+                                    <h5>Table Layout</h5>
+                                    <br>
+                                    <br>
+                                    Abilitiy to edit layout and add tables.
+                                    <br>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="image" style="background-image: url(images/dinein/6_employees.png)">
-                        <div class="caption">
-                            <a href="images/dinein/6_employees.png" target="_blank" class="lightbox">
-                                <h5>Employees List</h5>
-                                <br>
-                                <br>
-                                Displays necessary employee information.
-                                <br>
-                            </a>
+                        <div class="image" style="background-image: url(images/dinein/6_employees.png)">
+                            <div class="caption">
+                                <a href="images/dinein/6_employees.png" target="_blank" class="lightbox">
+                                    <h5>Employees List</h5>
+                                    <br>
+                                    <br>
+                                    Displays necessary employee information.
+                                    <br>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="image" style="background-image: url(images/dinein/7_punch-inout.png)">
-                        <div class="caption">
-                            <a href="images/dinein/7_punch-inout.png" target="_blank" class="lightbox">
-                                <h5>Punch In/Out</h5>
-                                <br>
-                                <br>
-                                Allows employees to punch in and out. Data is stored and displayed on a different page, at the request of the manager.
-                                <br>
-                            </a>
+                        <div class="image" style="background-image: url(images/dinein/7_punch-inout.png)">
+                            <div class="caption">
+                                <a href="images/dinein/7_punch-inout.png" target="_blank" class="lightbox">
+                                    <h5>Punch In/Out</h5>
+                                    <br>
+                                    <br>
+                                    Allows employees to punch in and out. Data is stored and displayed on a different page, at the request of the manager.
+                                    <br>
+                                </a>
+                            </div>
                         </div>
+
+
                     </div>
-
-
                 </div>
             </div>
-        </div>
 
             <!-- Graphic Design stuff -->
             <div class="container content divider" style="padding-bottom:0px !important" id="design">
@@ -212,7 +238,7 @@
             </div>
 
 
-            <!-- Latest Projects -->
+            <!-- Brothers -->
             <div class="container content divider" style="padding-top:0px !important">
                 <section class="d-flex">
                     <div class="my-auto">
@@ -458,14 +484,15 @@
 </div>
 <!-- content-control -->
 
+<footer class = "footer-text">
+    <p> &lt;/&gt; with &lt;3 by me and the help of others throughout the internet </p>
+</footer>
 
 
 <!-- JS, Popper.js, JQuery, BaguetteBox Scripts -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>
@@ -474,7 +501,7 @@ baguetteBox.run('.tz-gallery');
 
 <script src="js/smooth-scroll.js"></script>
 <script>
-	var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
 

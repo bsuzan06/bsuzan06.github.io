@@ -15,16 +15,42 @@ a:hover, a:focus, a:active {
 	color: #824027;
 }
 
-
-
-/* Side Nav */
-
-#sideNav .navbar-nav .nav-item .nav-link {
+/* Navigation */
+.navbar-nav .nav-item .nav-link {
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
+/* Mobile */
+@media (max-width: 991px) {
+	#mobileNav {
+		text-align: center;
+		position: sticky;
+		width: 100vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+
+		background-color: indianred;
+	}
+
+	#mobileNav .navbar-nav .nav-link {
+		color: rgba(255,255,255,.5);
+	}
+
+	#mobileNav .nav-link:hover, .nav-link:active {
+		color: white;
+	}
+
+}
+
+/* Desktop */
 @media (min-width: 992px) {
+
+	.content {
+		margin-left: 300px;
+	}
+
 	#sideNav {
 		text-align: center;
 		position: fixed;
@@ -72,84 +98,86 @@ a:hover, a:focus, a:active {
 		color: white;
 	}
 
-	/* controls body content */
-	.content {
-		margin-left: 300px;
-	}
-
-	.divider {
-		padding-top: 4rem !important;
-		padding-bottom: 4rem !important;
-		min-width: none;
-	}
-
-	.name_text {
-		font-size: 60px;
-
-	}
+}
 
 
-	/* Icons */
-	.fa-facebook-square:hover, .fa-linkedin-in:hover, .fa-briefcase:hover {
-		color: lightblue;
-		transition: all 500ms;
-	}
+/* Body Content */
+
+.divider {
+	padding-top: 4rem !important;
+	padding-bottom: 4rem !important;
+	min-width: none;
+}
+
+.name_text {
+	font-size: 60px;
+
+}
+
+.footer-text {
+	text-align: center;
+	justify-content: center;
+	font-size: 12px;
+}
 
 
-	/* Frames and Captions for graphic design */
-	.picGrid {
-		display: flex;
-		width: 100%;
-		max-width: inherit;
-		flex-flow: wrap;
-		background-color: transparent;
-		justify-content: center;
-	}
-
-	.image {
-		width: 350px;
-		height: 250px;
-		background-size: 100%;
-		background-color: white;
-		transition: background-size 1s;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		position: relative;
-		overflow: hidden;
-		margin: 6px;
-	}
+/* Icons */
+.fa-facebook-square:hover, .fa-linkedin-in:hover, .fa-briefcase:hover {
+	color: lightblue;
+	transition: all 500ms;
+}
 
 
-	.image:hover {
-		background-position: center;
-	}
+/* Frames and Captions for graphic design */
+.picGrid {
+	display: flex;
+	width: 100%;
+	max-width: inherit;
+	flex-flow: wrap;
+	background-color: transparent;
+	justify-content: center;
+}
 
-	.caption {
-		width: inherit;
-		height: inherit;
-		background-color: rgba(0, 0, 0, 0.6);
-		opacity: 0;
-		transition: opacity 1s;
-		position: absolute;
-
-	}
-
-	.caption h1, h2, h3, h4, h5, h6, p {
-		background-color: transparent;
-	}
-
-	.caption:hover {opacity: 1.0;}
-
-	.caption a:link, .caption a:visited {
-		color: white;
-		margin: 12px;
-		padding: 12px;
-		display: block;
-		background-color: transparent;
-		text-decoration: none;
-	}
+.image {
+	width: 350px;
+	height: 250px;
+	background-size: 100%;
+	background-color: white;
+	transition: background-size 1s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	overflow: hidden;
+	margin: 6px;
+}
 
 
+.image:hover {
+	background-position: center;
+}
 
+.caption {
+	width: inherit;
+	height: inherit;
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: opacity 1s;
+	position: absolute;
+
+}
+
+.caption h1, h2, h3, h4, h5, h6, p {
+	background-color: transparent;
+}
+
+.caption:hover {opacity: 1.0;}
+
+.caption a:link, .caption a:visited {
+	color: white;
+	margin: 12px;
+	padding: 12px;
+	display: block;
+	background-color: transparent;
+	text-decoration: none;
 }
