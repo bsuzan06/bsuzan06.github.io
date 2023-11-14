@@ -1,1 +1,343 @@
+<!doctype html>
+<html>
+<head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- INCLUDE ALL METADATA AND SEO HERE -->
+
+
+
+    <!-- -->
+
+    <title>bsuzan</title>
+    <link href="images/smileycon.ico" rel="icon" type="image/x-icon"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Font Awesome Icon List -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
+    <!-- Baguette Box (Lightbox) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
+
+</head>
+
+
+<body id="page-top">
+
+    <!-- Navigation -->
+
+    <!-- SideNav -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="sideNav">
+
+        <!-- image of me -->
+        <a class="navbar-brand " href="#page-top">
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/bsuzan.JPG" alt="">
+            </span>
+        </a>
+
+        <!-- menu -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#design">graphic design</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End SideNav -->
+
+    <!-- Mobile Nav -->
+    <div class="pos-f-t" id="mobileNav">
+        <div class="collapse mobileNav" id="navbarToggleExternalContent">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#design">graphic design</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="navbar navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    <!-- End Mobile Nav -->
+
+
+    <!-- Content -->
+    <div class="content">
+
+        <!-- About -->
+        <div class="container">
+            <section class="divider d-flex" id="about">
+                <div class="my-auto">
+                    <h1 class="name_text">bryan suzan</h1>
+                    <div class="text-muted mb-5 ">
+                        tel: <a href="tel:1-262-672-5626">+1 (262) 672-5626</a>
+                        <br>@: <a href="mailto:bsuzanwi@outlook.com">bsuzanwi@outlook.com</a>
+                    </div>
+
+                    <div class="mb-5">
+                        Recent graduate from the University of Wisconsin-Madison with a B.A. in Computer Science and a minor in Digital Studies. Aspiring UX/UI Designer, Front-End Developer, and Graphic Designer.
+                    </div>
+
+                    <p>Interested in collaborating? Contact me!</p>
+
+                    <ul class="list-inline list-social-icons mb-0">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com/bsuzanwi" class="icon-animation">
+                                <span class="fa-stack fa-3x">
+                                    <i class="fab fa-facebook-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com/in/bsuzan">
+                                <span class="fa-stack fa-3x">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="suzanb_resume.pdf" target="_blank">
+                                <span class="fa-stack fa-3x">
+                                    <i class="fas fa-briefcase"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- projects stuff -->
+        <div class="container divider" style="padding-bottom:0px !important" id="projects">
+            <section class="d-flex">
+                <div class="my-auto">
+                    <h1>projects</h1>
+                    <p>
+                        This section highlights the projects that I worked on. They demostrate the skills and knowledge I aquired throughout my undergraduate career. I hope to see this list expand as I find or create opportunities in the future.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div class="d-flex p-2 picGrid">
+
+            <div class="card">
+                <a href="dinein_cs.html">
+                <img src="images/works/1_login-card.png" alt="Avatar">
+
+                <div class="card-contain">
+                    <h4><b><i>DineIn</i></b></h4>
+                    <p>UX Design & Graphic Design</p>
+                    <div class="text-muted"> Go to Case Study > </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="lambdas.html">
+                <img src="images/works/sun_card.png" alt="Avatar">
+
+                <div class="card-contain">
+                    <h4><b><i>Lambdas</i></b></h4>
+                    <p>Graphic Design & Digital Outreach</p>
+                    <div class="text-muted"> Go to Case Study > </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="bluevelvet.html">
+                <img src="images/works/bvl_logo.png" alt="Avatar">
+
+                <div class="card-contain">
+                    <h4><b><i>Blue Velvet Lounge</i></b></h4>
+                    <p>Graphic Design & Brand Marketing</p>
+                    <div class="text-muted"> Go to Case Study > </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- <div class="card">
+                <a href="gcc.html">
+                <img src="images/works/gcc.png" alt="Avatar">
+
+                <div class="card-contain">
+                    <h4><b><i>GC Digital Marketing</i></b></h4>
+                    <p>Content Creation</p>
+                    <div class="text-muted"> Go to Case Study > </div>
+                </div>
+                </a>
+            </div> -->
+
+        </div>
+
+
+<!-- Graphic Design stuff -->
+<div class="container divider" style="padding-bottom:0px !important" id="design">
+    <section class="d-flex">
+        <div class="my-auto">
+            <h1>graphic design</h1>
+            <p>
+                These are small graphic design projects that I have worked on for local organizations, businesses, and friends. This helped my skills stay sharp and has kept me fairly busy. I have used Adobe Creative Suite and other tools to create and edit these designs.
+            </p>
+        </div>
+    </section>
+</div>
+
+<div class="container divider" style="padding-top:0px !important">
+
+    <div class="tz-gallery">
+        <div class="d-flex p-2 justify-content-around align-items-center picGrid">
+
+            <div class="image" style="background-image: url(images/works/shirts_brothers.jpg)">
+                <div class="caption">
+                    <a href="images/works/shirts_brothers.jpg" target="_blank" class="lightbox">
+                        Brothers Roofing LLC company logo
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/mke_art.png)">
+                <div class="caption">
+                    <a href="images/design/mke_art.png" target="_blank" class="lightbox">
+                        MKE Art Museum
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/djMondraLOGO_light.png)">
+                <div class="caption">
+                    <a href="images/design/djMondraLOGO_light.png" target="_blank" class="lightbox">
+                        Logo for local DJ
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/mightymike_logo.png)">
+                <div class="caption">
+                    <a href="images/design/mightymike_logo.png" target="_blank" class="lightbox">
+                        Watermark/Logo for local photographer
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/irrational_gatorade.png)">
+                <div class="caption">
+                    <a href="images/design/irrational_gatorade.png" target="_blank" class="lightbox">
+                        Re-imagination logo for streetwear brand
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/trolley_holiday.jpg)">
+                <div class="caption">
+                    <a href="images/design/trolley_holiday.jpg" target="_blank" class="lightbox">
+                        Holiday theme for Madison trolley service, Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/trolley_jan2019-1.png)">
+                <div class="caption">
+                    <a href="images/design/trolley_jan2019-1.png" target="_blank" class="lightbox">
+                        Photoshop edit for Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/trolley_jan2019-3.jpg)">
+                <div class="caption">
+                    <a href="images/design/trolley_jan2019-3.jpg" target="_blank" class="lightbox">
+                        Photoshop edit for Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/trolley_jan2019-4.jpg)">
+                <div class="caption">
+                    <a href="images/design/trolley_jan2019-4.jpg" target="_blank" class="lightbox">
+                        Photoshop edit for Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/after-1.jpg)">
+                <div class="caption">
+                    <a href="images/design/after-1.jpg" target="_blank" class="lightbox">
+                        Photoshop edit for Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" style="background-image: url(images/design/after-2.jpg)">
+                <div class="caption">
+                    <a href="images/design/after-2.jpg" target="_blank" class="lightbox">
+                        Photoshop edit for Trolley Pub
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class = "footer-text">
+    <p> &lt;/&gt; with &lt;3 by me and the help of others throughout the internet </p>
+</footer>
+
+
+
+</div>
+<!-- End Content -->
+
+
+<!-- JS, Popper.js, JQuery, BaguetteBox Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+baguetteBox.run('.tz-gallery');
+</script>
+
+<script src="js/smooth-scroll.js"></script>
+<script>
+var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+</body>
+
+
+
+</html>
