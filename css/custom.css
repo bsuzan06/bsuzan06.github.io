@@ -204,7 +204,7 @@ a:hover, a:focus, a:active {
 .caption {
 	width: inherit;
 	height: inherit;
-	background-color: rgba(228, 179, 99, 0.6);
+	background-color: rgba(228, 179, 99, 0.75);
 	opacity: 0;
 	transition: opacity 1s;
 	position: absolute;
