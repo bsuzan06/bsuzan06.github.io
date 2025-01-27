@@ -179,8 +179,8 @@ a:hover, a:focus, a:active {
 }
 
 .image {
-	width: 240px;
-	height: auto;
+	width: 250px;
+	height: 150px;
 	background-size: 100%;
 	background-color: white;
 	transition: background-size 1s;
@@ -192,7 +192,7 @@ a:hover, a:focus, a:active {
 	margin: 6px;
 
 	/*border: 1px solid #B85252;
-	border-radius: 2px; */
+	border-radius: 2px;*/
 
 }
 
@@ -204,7 +204,7 @@ a:hover, a:focus, a:active {
 .caption {
 	width: inherit;
 	height: inherit;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(228, 179, 99, 0.6);
 	opacity: 0;
 	transition: opacity 1s;
 	position: absolute;
