@@ -180,8 +180,8 @@ a:hover, a:focus, a:active {
 }
 
 .image {
-	width: 100%;
-	height: auto;
+	width: 250px;
+	height: 150px;
 	background-size: 100%;
 	background-color: white;
 	transition: background-size 1s;
