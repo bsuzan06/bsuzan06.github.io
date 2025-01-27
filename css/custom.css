@@ -139,7 +139,7 @@ a:hover, a:focus, a:active {
 
 .card img{
 	height: auto;
-	width: 100;
+	width: 100%;
 }
 
 @media (max-width: 400px) {
