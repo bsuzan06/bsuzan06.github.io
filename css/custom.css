@@ -104,8 +104,7 @@ a:hover, a:focus, a:active {
 /* Body Content */
 
 .divider {
-	padding-top: 4rem !important;
-	padding-bottom: 4rem !important;
+	padding-bottom: 3rem !important;
 	min-width: none;
 }
 
@@ -232,8 +231,8 @@ a:hover, a:focus, a:active {
 /* project pages */
 
 .project-head-container{
-	width: auto;
-	height: 70vh;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	position: relative;
 	display: grid;
 	align-content: center;
@@ -251,7 +250,7 @@ a:hover, a:focus, a:active {
 }
 
 .project-title {
-	font-size: 5rem;
+	font-size: 6rem;
 	font-style: italic;
 	margin: auto;
 	grid-row: 1;
@@ -259,7 +258,7 @@ a:hover, a:focus, a:active {
 }
 
 .project-content {
-	margin: 40vh 15% 0 15%;
+	margin: 3rem 15% 0 15%;
 }
 
 
